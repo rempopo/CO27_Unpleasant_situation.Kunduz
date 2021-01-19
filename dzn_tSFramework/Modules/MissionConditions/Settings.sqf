@@ -72,7 +72,7 @@ MissionCondition3 = [ "WIN3",{
 MissionCondition4 = [ "WIN4",{ 
         [ TRG_1, "east", "", "> 3"] call dzn_fnc_ccUnits
 		&& [ TRG_2, "east", "", "> 3"] call dzn_fnc_ccUnits
-		&& alive BOX
+		&& !alive BOX
 		&& {call fnc_CheckPlayersReturned}
 },"only box destroyed" ];
 

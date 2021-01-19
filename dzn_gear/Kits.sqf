@@ -134,6 +134,17 @@ kit_uk_pilot = [
 	["<BACKPACK ITEMS >> ",[]]
 ];
 
+kit_uk_art = [
+	["<EQUIPEMENT >>  ","CUP_U_B_BDUv2_gloves_DDPM","","","",""],
+	["<PRIMARY WEAPON >>  ","","",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","CUP_hgun_Browning_HP","CUP_13Rnd_9x19_Browning_HP",["","","",""]],
+	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
+	["<VEST ITEMS >> ",[["HANDGUN MAG",2]]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+
 cargo_kit_uk = [
 	[["rhs_weap_m72a7",1]],
 	[["CUP_HandGrenade_L109A1_HE",10],["CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2],["CUP_30Rnd_762x39_AK47_M",20],["CUP_30Rnd_556x45_Stanag_L85",30],["CUP_200Rnd_TE4_Green_Tracer_556x45_L110A1",10],["CUP_1Rnd_HE_M203",20],["CUP_PipeBomb_M",2]],
@@ -149,7 +160,7 @@ cargo_kit_uk = [
 #define afg_w_r ["CUP_arifle_M16A2","CUP_arifle_AKMS_Early","CUP_arifle_AKM"]
 #define afg_a_r ["CUP_30Rnd_556x45_Stanag","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"]
 
-kit_afg_sl = [
+kit_ana_sl = [
 	["<EQUIPEMENT >>  ",afg_u,"CUP_V_B_Interceptor_Grenadier_Olive","tf_rt1523g_sage","H_Beret_blk",""],
 	["<PRIMARY WEAPON >>  ",afg_w_r,afg_a_r,["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
@@ -160,7 +171,7 @@ kit_afg_sl = [
 	["<BACKPACK ITEMS >> ",[["SmokeShellBlue",2],["SmokeShellGreen",2],["SmokeShellRed",2],["SmokeShell",2]]]
 ];
 
-kit_afg_2ic = [
+kit_ana_2ic = [
 	["<EQUIPEMENT >>  ",afg_u,"CUP_V_B_Interceptor_Grenadier_Olive","",afg_h,""],
 	["<PRIMARY WEAPON >>  ",afg_w_r,afg_a_r,["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
@@ -171,7 +182,7 @@ kit_afg_2ic = [
 	["<BACKPACK ITEMS >> ",[]]
 ];
 
-kit_afg_ar = [
+kit_ana_mg = [
 	["<EQUIPEMENT >>  ",afg_u,"CUP_V_B_Interceptor_Base_Olive","CUP_B_AlicePack_OD",afg_h,""],
 	["<PRIMARY WEAPON >>  ","CUP_lmg_PKM","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
@@ -182,7 +193,7 @@ kit_afg_ar = [
 	["<BACKPACK ITEMS >> ",[["PRIMARY MAG",4]]]
 ];
 
-kit_afg_gr = [
+kit_ana_gr = [
 	["<EQUIPEMENT >>  ",afg_u,"CUP_V_B_Interceptor_Grenadier_Olive","CUP_B_AlicePack_OD",afg_h,""],
 	["<PRIMARY WEAPON >>  ","CUP_arifle_M16A2_GL","CUP_30Rnd_556x45_Stanag",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
@@ -193,7 +204,7 @@ kit_afg_gr = [
 	["<BACKPACK ITEMS >> ",[["ACE_Clacker",1],["CUP_PipeBomb_M",1]]]
 ];
 
-kit_afg_r = [
+kit_ana_r = [
 	["<EQUIPEMENT >>  ",afg_u,"CUP_V_B_Interceptor_Rifleman_Olive","CUP_B_AlicePack_OD",afg_h,""],
 	["<PRIMARY WEAPON >>  ",afg_w_r,afg_a_r,["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
@@ -204,18 +215,18 @@ kit_afg_r = [
 	["<BACKPACK ITEMS >> ",[["CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2],["ACE_Clacker",1],["CUP_PipeBomb_M",1]]]
 ];
 
-kit_afg_rpg7 = [
-	["<EQUIPEMENT >>  ",afg_u,"CUP_V_B_Interceptor_Grenadier_Olive","CUP_B_RPGPack_Khaki",afg_h,""],
-	["<PRIMARY WEAPON >>  ",afg_w_r,afg_a_r,["","","",""]],
+kit_ana_rpg7 = [
+	["<EQUIPEMENT >>  ",afg_u,"CUP_V_B_Interceptor_Base_Olive","usm_pack_alice",afg_h,""],
+	["<PRIMARY WEAPON >>  ","","",["","","",""]],
 	["<LAUNCHER WEAPON >>  ","CUP_launch_RPG7V","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","","",["","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS],
 	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS]],
-	["<VEST ITEMS >> ",[["CUP_HandGrenade_M67",2],["PRIMARY MAG",8]]],
-	["<BACKPACK ITEMS >> ",[["CUP_OG7_M",2],["CUP_PG7V_M",1]]]
+	["<VEST ITEMS >> ",[["CUP_HandGrenade_M67",2]]],
+	["<BACKPACK ITEMS >> ",[["CUP_OG7_M",6],["CUP_PG7V_M",3]]]
 ];
 
-kit_afg_assrpg7 = [
+kit_ana_assrpg7 = [
 	["<EQUIPEMENT >>  ",afg_u,"CUP_V_B_Interceptor_Grenadier_Olive","CUP_B_RPGPack_Khaki",afg_h,""],
 	["<PRIMARY WEAPON >>  ",afg_w_r,afg_a_r,["","","",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
